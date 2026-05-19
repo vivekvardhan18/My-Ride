@@ -1,0 +1,10 @@
+.vehicle-form input,
+.vehicle-form select,
+.vehicle-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+}

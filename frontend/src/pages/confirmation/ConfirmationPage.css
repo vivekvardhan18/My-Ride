@@ -1,0 +1,40 @@
+.confirmation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #111;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    padding: 2rem;
+}
+
+.checkmark {
+    font-size: 5rem;
+    animation: pop 0.5s ease;
+    margin-bottom: 1rem;
+}
+
+button {
+    margin-top: 2rem;
+    padding: 12px 24px;
+    background: #ffd700;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

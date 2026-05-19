@@ -1,0 +1,26 @@
+.vehicle-container {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.vehicle-details p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background: #ffd700;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #e6c200;
+}

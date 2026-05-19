@@ -1,0 +1,64 @@
+.completed-rides-container {
+    padding: 20px;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.completed-rides-container h2 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #00d8ff;
+}
+
+.completed-msg {
+    text-align: center;
+    font-size: 16px;
+    color: #bbb;
+    margin-top: 40px;
+}
+
+.completed-card {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 8px rgba(0, 216, 255, 0.1);
+}
+
+.completed-card h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #00d8ff;
+}
+
+.completed-card p {
+    margin: 6px 0;
+    font-size: 15px;
+    color: #e0e0e0;
+}
+
+.completed-card b {
+    color: #fff;
+}
+
+.back-button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 12px 20px;
+    background-color: #00d8ff;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.back-button:hover {
+    background-color: #00b6d6;
+}

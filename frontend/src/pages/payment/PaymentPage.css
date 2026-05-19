@@ -1,0 +1,70 @@
+.payment-container {
+    min-height: 100vh;
+    padding: 2rem;
+    color: white;
+    background: #111;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.ride-details {
+    background: #1c1c1e;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.payment-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.payment-options button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #2a2a2d;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.payment-options button.selected {
+    background: #ffd700;
+    color: black;
+}
+
+.pay-btn {
+    width: 100%;
+    padding: 15px;
+    background: #ffd700;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.upi-section {
+    margin: 15px 0;
+}
+
+.upi-section label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+
+.upi-section input {
+    width: 95%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #555;
+    background: #1c1c1e;
+    color: white;
+}
